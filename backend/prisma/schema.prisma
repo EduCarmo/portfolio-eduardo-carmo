@@ -6,7 +6,7 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../generated/prisma"
+  // output   = "../generated/prisma"
 }
 
 datasource db {
@@ -35,7 +35,7 @@ model Projetos {
   tipo        String
   destaque    Boolean      @default(false)
   repositorio String
-  tecologias  Tecnologia[]
+  tecnologias  Tecnologia[]
 
   @@map("projetos")
 }
