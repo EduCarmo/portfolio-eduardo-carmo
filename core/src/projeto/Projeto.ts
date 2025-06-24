@@ -1,6 +1,6 @@
 import Tecnologia from "../tecnologia/Tecnologia"
 import { Nivel } from "./Nivel"
-import { Tipo } from "./Typo"
+import { Tipo } from "./Type"
 
 export default interface Projeto {
 	id: number
