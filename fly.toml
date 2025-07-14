@@ -6,11 +6,11 @@ primary_region = "gru"
 
 [env]
   NODE_ENV = "production"
-  PORT = "3000"
+  PORT = "4000"
   DATABASE_URL = "sua-string-do-supabase"
 
 [[services]]
-  internal_port = 3000
+  internal_port = 4000
   protocol = "tcp"
 
   [[services.ports]]
