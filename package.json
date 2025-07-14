@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-eduardo-carmo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx concurrently \"cd backend && npm run start:dev\" \"cd frontend && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduCarmo/portfolio-eduardo-carmo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduCarmo/portfolio-eduardo-carmo/issues"
+  },
+  "homepage": "https://github.com/EduCarmo/portfolio-eduardo-carmo#readme",
+  "description": ""
+}
