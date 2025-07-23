@@ -3,5 +3,5 @@ export default interface Mensagem {
 	texto: string
 	autor: string
 	lado: "esquerdo" | "direito"
-	icone: any
+	icone: React.ReactNode
 }
